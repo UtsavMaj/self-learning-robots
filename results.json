@@ -1,0 +1,60 @@
+{
+ "bandit": {
+  "Na\u00efve (20 trials/arm)": {
+   "avg_reward_last_500": 1.5474782462099297,
+   "avg_reward_all": 1.2374532649302312,
+   "optimal_pct_last_500": 89.33533333333332
+  },
+  "\u03b5-Greedy (\u03b5=0.01)": {
+   "avg_reward_last_500": 1.253908248163214,
+   "avg_reward_all": 1.1702038376642823,
+   "optimal_pct_last_500": 56.04833333333333
+  },
+  "\u03b5-Greedy (\u03b5=0.1)": {
+   "avg_reward_last_500": 1.3627304446266126,
+   "avg_reward_all": 1.2991645597560304,
+   "optimal_pct_last_500": 78.65166666666667
+  },
+  "Upper bound (K=2)": {
+   "avg_reward_last_500": 1.4426513268225758,
+   "avg_reward_all": 1.4197414152759145,
+   "optimal_pct_last_500": 70.46933333333334
+  }
+ },
+ "crawler": {
+  "random_mean": 0.11365011692477013,
+  "random_std": 0.27678941144159164,
+  "trained_mean": 6.274512401614533,
+  "trained_std": 0.20443091697241939,
+  "trained_best": 6.415751784239834,
+  "trained_each": [
+   6.415751784239834,
+   6.3344441218373095,
+   6.3344441218373095,
+   5.872170195918379,
+   6.415751784239834
+  ],
+  "first50_mean": 0.21468609308565492,
+  "last50_mean": 5.149938352044361,
+  "episodes": 500,
+  "seeds": 5
+ },
+ "nav": {
+  "random": {
+   "success": 7.000000000000001,
+   "path_efficiency": 0.23143374717107434,
+   "collisions": 17.265,
+   "steps": 58.69
+  },
+  "trained": {
+   "success": 43.5,
+   "path_efficiency": 0.9709064468699357,
+   "collisions": 0.295,
+   "steps": 37.59
+  },
+  "train_episodes": 4000,
+  "test_maps": 200,
+  "first200_mean_return": -15.888500000000011,
+  "last200_mean_return": 4.318500000000002
+ }
+}
